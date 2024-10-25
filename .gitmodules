@@ -1,0 +1,9 @@
+[submodule "puzzle-gateway-api"]
+	path = puzzle-gateway-api
+	url = https://github.com/pepijn03/puzzle-gateway-api.git
+[submodule "puzzle-app-frontend"]
+	path = puzzle-app-frontend
+	url = https://github.com/pepijn03/puzzle-app-frontend.git
+[submodule "puzzle-micro-services"]
+	path = puzzle-micro-services
+	url = https://github.com/pepijn03/puzzle-micro-services.git
