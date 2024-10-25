@@ -1,0 +1,6 @@
+name: RedisDB
+services:
+  redis_db:
+    image: redis
+    ports:
+      - '6379:6379'
