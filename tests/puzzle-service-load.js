@@ -29,16 +29,16 @@ export const options = {
 
 export function get_all_endpoint() {
     // function will be called for the initial 60 seconds
-    http.get('http://localhost:3003/');
+    http.get('http://host.docker.internal:3003/');
 }
   
 export function get_one_endpoint() {
     // function will be called after 30 seconds for 30 seconds
-    http.get('http://localhost:3003/67253fb8d484805aba8f197e');
+    http.get('http://host.docker.internal:3003/67253fb8d484805aba8f197e');
 }
 
 export function get_by_date_endpoint() {
     // function will be called after 30 seconds for 30 seconds
-    http.get('http://localhost:3003/date/2024-10-08');
+    http.get('http://host.docker.internal:3003/date/2024-10-08');
 }
 
